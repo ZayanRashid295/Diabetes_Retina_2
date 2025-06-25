@@ -19,9 +19,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Git LFS Pull
-        run: git lfs pull
-
       - name: Set up Python version
         uses: actions/setup-python@v5
         with:
@@ -64,12 +61,13 @@ jobs:
       - name: Unzip artifact for deployment
         run: unzip release.zip
 
+      
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_1739345736E94DD6AEAD37FDE5D51CAE }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_399640C0FE6A44758C7300DF11BC967B }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_3491641D39634B1199442B0C59EEA232 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_B30ABEA5586E4E6E8DB77A517DE1C5A7 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_5420B5D8EBEF44FA85A7B61AA9641C1F }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_2460EA0E5C1F4724A24B8D7F3ADB7415 }}
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v3
@@ -77,3 +75,4 @@ jobs:
         with:
           app-name: 'RetinaGuard'
           slot-name: 'Production'
+          
