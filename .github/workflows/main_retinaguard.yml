@@ -19,6 +19,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Git LFS Pull
+        run: git lfs pull
+
       - name: Set up Python version
         uses: actions/setup-python@v5
         with:
@@ -61,7 +64,6 @@ jobs:
       - name: Unzip artifact for deployment
         run: unzip release.zip
 
-      
       - name: Login to Azure
         uses: azure/login@v2
         with:
@@ -75,4 +77,3 @@ jobs:
         with:
           app-name: 'RetinaGuard'
           slot-name: 'Production'
-          
