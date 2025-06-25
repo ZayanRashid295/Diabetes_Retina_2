@@ -6,7 +6,7 @@ opencv-python
 pillow
 matplotlib
 transformers
-pytorch-grad-cam
+grad-cam
 wandb
 scikit-learn
 pandas
