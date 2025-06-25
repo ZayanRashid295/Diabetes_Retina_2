@@ -1,0 +1,14 @@
+{"time":"2025-03-14T02:33:04.1807631+05:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Lenovo\\Downloads\\infyma-hackathon-main (1)\\infyma-hackathon-main\\notebooks\\wandb\\offline-run-20250314_023303-ko6hg8hp\\logs\\debug-core.log"}
+{"time":"2025-03-14T02:33:05.0565316+05:00","level":"INFO","msg":"created new stream","id":"ko6hg8hp"}
+{"time":"2025-03-14T02:33:05.0570471+05:00","level":"INFO","msg":"stream: started","id":"ko6hg8hp"}
+{"time":"2025-03-14T02:33:05.0570471+05:00","level":"INFO","msg":"handler: started","stream_id":"ko6hg8hp"}
+{"time":"2025-03-14T02:33:05.0570471+05:00","level":"INFO","msg":"writer: Do: started","stream_id":"ko6hg8hp"}
+{"time":"2025-03-14T02:33:05.0570471+05:00","level":"INFO","msg":"sender: started","stream_id":"ko6hg8hp"}
+{"time":"2025-03-14T02:33:05.0624761+05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-14T02:37:33.0204242+05:00","level":"INFO","msg":"stream: closing","id":"ko6hg8hp"}
+{"time":"2025-03-14T02:37:33.0214544+05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-14T02:37:33.0235035+05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-14T02:37:33.0250416+05:00","level":"INFO","msg":"sender: closed","stream_id":"ko6hg8hp"}
+{"time":"2025-03-14T02:37:33.0250416+05:00","level":"INFO","msg":"handler: closed","stream_id":"ko6hg8hp"}
+{"time":"2025-03-14T02:37:33.0250416+05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ko6hg8hp"}
+{"time":"2025-03-14T02:37:33.0250416+05:00","level":"INFO","msg":"stream: closed","id":"ko6hg8hp"}
